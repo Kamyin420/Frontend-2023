@@ -16,9 +16,12 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#ffffff;
+	--color-prim:#FFFF5E;
+	--color-sec:#82ECFF;
+	--color-tert:#F164EB;
+	
 }
-
 
 
 
@@ -28,4 +31,33 @@
 /****************/
 
 /* jouw code */
+
+/*css voor nav bar*/
+
+/*vraag: Moet mijn image in de nav ul zitten? of moet ik hem eruit halen?.*/
+
+body{
+	text-decoration: none; 
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*waarom gaat img loop ook mee met onderstaande styling?*/
+
+nav ul img:nth-of-type(1){
+	position: absolute;
+	left: .5em;	
+	width: 6em;
+	margin-right: auto;
+	margin-right: 10em;
+}
+
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2vw;
+	/*hoe stop ik dat de children onder het logo komen te staan wanneer ik het scherm kleiner maak?*/
+}
 

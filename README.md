@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Noah Boontjes (vervangen door jouw naam)
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Blauw / rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  responsive
  
 </details>
 
@@ -38,13 +38,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
+  https://www.eyefilm.nl/nl
+
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="./readme-images/Homescreen.png" width="375px" alt="omschrijving van de pagina">
+  
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ <img src="./readme-images/Detail scherm.png" width="375px" alt="omschrijving van de pagina">
+  
  
 </details>
 
@@ -58,6 +62,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Mensen met parkinsons hebben heel veel moeite met kleine knoppen. Ook als er teveel opties op 1 pagina staan
+
+  Ook zijn de meeste pagina's niet te gebruiken met voiceovers.
+
+
+  Het is erg moeilijk om door een slecht geoptimaliseerde website te navigeren als blinde
+  Verder is de navigatie hiervan erg obscuur.
+
+
+
 </details>
 
 
@@ -68,7 +82,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./readme-images/Schets 1.png" width="375px" alt="breakdown van de hele pagina">
+<img src="./readme-images/Schets 2.png" width="375px" alt="breakdown van de hele pagina">
+<img src="./readme-images/Schets 3.png" width="375px" alt="breakdown van de hele pagina">
+<img src="./readme-images/Schets 4.png" width="375px" alt="breakdown van de hele pagina">
+
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -99,6 +117,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
+
+  Vind het lastig om bij te blijven, maar ligt aan mij. Ook snap ik mediaquerry niet zo goed. Ook is mijn mobiele site heel erg breed.
 
 
   ### Verslag van meeting
