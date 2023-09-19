@@ -20,6 +20,8 @@
 	--color-prim:#FFFF5E;
 	--color-sec:#82ECFF;
 	--color-tert:#F164EB;
+
+	--fontsize-prim: 2em;
 	
 }
 
@@ -44,20 +46,30 @@ ul{
 	list-style-type: none;
 }
 
-/*waarom gaat img loop ook mee met onderstaande styling?*/
+img {
+	max-width: 100%;
+}
 
-nav ul img:nth-of-type(1){
-	position: absolute;
-	left: .5em;	
-	width: 6em;
-	margin-right: auto;
-	margin-right: 10em;
+
+
+
+
+nav:nth-of-type(1) {
+	max-width: auto;
+	height: 3em;
+}
+
+nav{
+	display: flex;
+}
+
+
+nav ul li{
+	
 }
 
 nav ul{
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2vw;
-	/*hoe stop ik dat de children onder het logo komen te staan wanneer ik het scherm kleiner maak?*/
+
 }
+
 
