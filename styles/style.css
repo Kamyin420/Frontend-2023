@@ -26,7 +26,10 @@
 }
 
 
-
+:focus	{
+	border: solid 4px hotpink;
+	border-radius: 4em;
+}
 
 /****************/
 /* JOUW STYLING */
@@ -36,10 +39,12 @@
 
 /*css voor nav bar*/
 
-/*vraag: Moet mijn image in de nav ul zitten? of moet ik hem eruit halen?.*/
+
 
 body{
 	text-decoration: none; 
+	margin: 0;
+	max-width: 100%;
 }
 
 ul{
@@ -51,25 +56,146 @@ img {
 }
 
 
-
+header	{
+	position: sticky;
+	top: 0;
+	margin-top: 1em;
+	margin-left: 1.2em;
+	margin-right: 1.2em;
+	max-width: 100%;
+}
 
 
 nav:nth-of-type(1) {
 	max-width: auto;
-	height: 3em;
+	height: 43px;
+}
+
+/*waarom is mijn 2e foto nu ook opacity 20?*/
+
+nav img:first-of-type	{
+	opacity: 20%;
+}
+
+nav ul img:first-of-type	{
+	opacity: 100%;
 }
 
 nav{
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+	color: #ffffff;
+
+
 }
 
+/*zal ik voor de eerste 2 list items een span gebruiken? dat ik ze in 1 Li stop ipv 2.*/
 
-nav ul li{
+nav ul {
+	display: flex;
+	margin-left :auto;
+	gap: 1em;
 	
 }
 
-nav ul{
 
+section	{
+	height: 80vh;
 }
+
+/* door bij de h1 6vh te doen, komen de letters boven elkaar te staan. Als we deze nu uitrekken krijgen we ze naast elkaar. Hoe zorg ik ervoor dat het nog langer duurt voordat dit 
+gebeurt?*/
+
+section	h1{
+	
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 6vh;
+
+	position: relative;
+	top: 25vh;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 5vh;
+}
+
+section	h2{
+	
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 6vh;
+
+	position: relative;
+	top: 25vh;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	line-height: 5vh;
+
+	
+}
+
+section	h3{
+	
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+	position: relative;
+	top: 25vh;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	
+}
+
+section	p{
+	
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+	position: relative;
+	top: 25vh;
+	margin-left: 20px;
+	
+	line-height: 22px;
+	width: 80vw;
+
+	color: #ffffff;
+}
+
+
+
+
+section:nth-of-type(1)	{
+	background-color: #CCC9BB;
+	color: var(--color-prim);
+}
+
+
+
+section:nth-of-type(2)	{
+	background-color: #E02C03;
+	color: var(--color-sec);
+}
+
+section:nth-of-type(3)	{
+	background-color: #82ECFF;
+	color: var(--color-tert);
+}
+
+section:nth-of-type(4)	{
+	background-color: #684B2B;
+	color: var(--color-prim);
+}
+
+
+/*https://stackoverflow.com/questions/1225130/how-can-i-align-text-directly-beneath-an-image*/
+
+
 
 

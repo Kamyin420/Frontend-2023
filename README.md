@@ -141,7 +141,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Had moeite met mn header, maar zag gewoon dingen over het hoofd. Ook vind ik de layout nog tricky, het ziet er opzich goed uit maar het moet toch iets netter.
 
 
   ### Agenda voor meeting
