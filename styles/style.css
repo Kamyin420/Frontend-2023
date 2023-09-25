@@ -58,7 +58,7 @@ img {
 
 header	{
 	position: sticky;
-	top: 0;
+	top: 0em;
 	margin-top: 1em;
 	margin-left: 1.2em;
 	margin-right: 1.2em;
@@ -107,6 +107,11 @@ nav ul {
 
 section	{
 	height: 80vh;
+	
+}
+
+main	{
+	display: grid;
 }
 
 /* door bij de h1 6vh te doen, komen de letters boven elkaar te staan. Als we deze nu uitrekken krijgen we ze naast elkaar. Hoe zorg ik ervoor dat het nog langer duurt voordat dit 
