@@ -188,7 +188,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik merk dat als ik nieuwe dingen toevoeg dat alles door de war gaat. Moet goed kijken naar hoe ik mijn tekst goed krijg op de home page.
+ De dubbele tekst vind ik goed gelukt. 
+
+ Nu ook eindelijk een achtergrond gif. Deze werkte eerst goed alleen nu ineens is de content te groot.
+
+ Moet echt ff goed kijken naar accesibility, daar heb ik namelijk nog helemaal geen rekening mee gehouden bij mijn site.
 
 
   ### Agenda voor meeting

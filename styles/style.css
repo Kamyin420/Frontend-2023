@@ -45,6 +45,7 @@ body{
 	text-decoration: none; 
 	margin: 0;
 	max-width: 100%;
+	margin: 4em auto;
 }
 
 ul{
@@ -71,7 +72,6 @@ nav:nth-of-type(1) {
 	height: 43px;
 }
 
-/*waarom is mijn 2e foto nu ook opacity 20?*/
 
 nav img:first-of-type	{
 	opacity: 20%;
@@ -102,6 +102,7 @@ nav ul {
 	margin-left :auto;
 	gap: 1em;
 	
+	
 }
 
 
@@ -125,10 +126,9 @@ section	{
 
 main	{
 	display: grid;
+	
 }
 
-/* door bij de h1 6vh te doen, komen de letters boven elkaar te staan. Als we deze nu uitrekken krijgen we ze naast elkaar. Hoe zorg ik ervoor dat het nog langer duurt voordat dit 
-gebeurt?*/
 
 
 
@@ -180,29 +180,50 @@ section	p{
 	margin-left: 20px;
 	
 	line-height: 22px;
-	width: 80vw;
+	width: 85vw;
 
 	color: #ffffff;
 }
 
+/*code voor index sections, de opmaak*/
+
+
+.naastelkaar {
+	display: flex;
+	justify-content: space-between;
+	
+}
 
 @media (min-width: 00px)	{
-	.kopje{
+	.kopjenep{
 	display: none;
 }
 }
 
 @media (min-width: 560px)	{
-	.kopje{
+	.kopjenep{
 	display: block;
 }
 }
 
 
 
+/*hoe zorg ik ervoor dat de video niet zo breed is en mooi uitzoomt wanneer ik hem responsive maak?*/
+
+
+.video-achtergrond	{
+	position: fixed;
+    top: 0px;
+    right: 0px;
+    overflow: auto;
+    z-index: -1;
+	max-width: fit-content;
+	
+   
+
+}
 
 .home section:nth-of-type(1)	{
-	background-color: #CCC9BB;
 	color: var(--color-prim);
 }
 
@@ -223,12 +244,12 @@ section	p{
 
 /*https://css-tricks.com/almanac/selectors/n/nth-child/#:~:text=The%20syntax%20for%20selecting%20the,the%20first%203%20li%20elements.*/
 
-section:nth-of-type(-n+3){
+/*als ik dit naar .kopje1 verander klopt ineens de hele layout niet meer.*/
+
+section:nth-of-type(-n+4){
 
 	display: inline-block;
- 	animation: rotate 1s linear infinite;
-	 animation-play-state: paused;
-	 animation-delay: calc(var(--scroll) * -1s);
+ 	
 }
 
 /*@keyframes rotate {
