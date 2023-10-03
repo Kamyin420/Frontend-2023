@@ -28,6 +28,10 @@
 	
 }
 
+html	{
+	height: 100%;
+	width: 100%;
+}
 
 :focus	{
 	border: solid 4px hotpink;
@@ -70,24 +74,31 @@ header	{
 }
 
 
-nav:nth-of-type(1) {
-	max-width: auto;
-	height: 43px;
-}
 
 
-nav img:first-of-type	{
+
+header img:nth-of-type(1)	{
 	opacity: 20%;
+
+	height: 43px;
+	width: auto;
+
+
 }
 
-nav ul img:first-of-type	{
+nav ul img:nth-of-type(1)	{
 	opacity: 100%;
+
+	width: 20px;
+	height: auto;
+
 }
 
 nav{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	place-items: center;
 	
 
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -96,13 +107,13 @@ nav{
 	color: #ffffff;
 }
 
-/*zal ik voor de eerste 2 list items een span gebruiken? dat ik ze in 1 Li stop ipv 2.*/
+
 
 nav ul {
 	display: flex;
 	margin-left :auto;
 	gap: 1em;
-	
+	place-items: center;
 	
 }
 
@@ -142,9 +153,6 @@ nav ul li:nth-of-type(4) button span:nth-of-type(1){
 	
 }
 
-nav ul li:nth-of-type(4) button span:nth-of-type(2){
-
-}
 
 nav ul li:nth-of-type(4) button span:nth-of-type(3){
 
@@ -173,61 +181,185 @@ nav ul li:nth-of-type(4) button[aria-expanded="true"] span:nth-of-type(3){
 
 
 
+.ruimte	{
+	height: 10vh;
+}
 
+/******************************************* code om tekst in de sections responsive te maken *************************************************************/
+
+
+.home section	{
+	height: 80vh;
+	width: 100vw;
+
+}
+
+@media (min-width: 670px)	{
+	.home section {
+	height: 90vh;
+	width: 100vw;
+}
+}
+
+@media (min-width: 1280px)	{
+	.home section {
+	height: 100vh;
+	width: 100vw;
+}
+}
 
 
 
 section	h1{
 	
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 2.7em;
+	font-size: 2.2em;
 
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0em;
-	margin-bottom: 0em;
-	line-height: 5vh;
+	
+	line-height: 1em;
 	max-width: 50%;
+
+
+	margin-left: 5vw;
+	margin-top: 0;
+	margin-bottom: 0;
 }
+
+@media (min-width: 670px)	{
+	section h1{
+	width: 60%;
+	font-size: 2.6em;
+	line-height: 1em;
+	
+	margin-left: 7.5vw;
+}
+}
+
+@media (min-width: 1280px)	{
+	section h1{
+	width: 40%;
+	font-size: 3.4em;
+	line-height: 1em;
+
+	margin-left: 10vw;
+	
+}
+}
+
+
 
 section	h2{
 	
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 2.7em;
-
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 0em;
-	margin-bottom: 0em;
-	line-height: 5vh;
-	max-width: 50%;
+	font-size: 2.2em;
 
 	
+	line-height: 1em;
+	max-width: 50%;	
+
+	margin-left: 5vw;
+	margin-top: 0;
+	margin-bottom: 0;
 }
+
+@media (min-width: 670px)	{
+	section h2{
+	width: 60%;
+	font-size: 2.6;
+	line-height: 1em;
+	
+	margin-left: 7.5vw;
+}
+}
+
+@media (min-width: 1280px)	{
+	section h2{
+	width: 40%;
+	font-size: 3.4em;
+	line-height: 1em;
+	
+	margin-left: 10vw;
+}
+}
+
 
 section	h3{
 	
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 1em;
 	
-	margin-left: 20px;
-	margin-right: 20px;
 	
-	
+	margin-left: 5vw;
 }
+
+@media (min-width: 670px)	{
+	section h3{
+	
+	font-size: 1em;
+	line-height: 1em;
+	
+	margin-left: 7.5vw;
+}
+}
+
+@media (min-width: 1280px)	{
+	section h3{
+	
+	font-size: 1.6em;
+	line-height: 1em;
+	
+	margin-left: 10vw;
+}
+}
+
 
 section	p{
 	
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 1em;
-	
-	margin-left: 20px;
-	
-	line-height: 22px;
-	width: 85vw;
-
+	font-size: 1.2em;
+	font-weight: 500;
 	color: #ffffff;
+	
+	
+	line-height: 1.2em;
+	width: 85%;
+
+	margin-left: 5vw;
+	
+	
 }
+
+section p:nth-of-type(1)	{
+	margin-top: 10vh;
+}
+
+
+@media (min-width: 670px)	{
+	section p{
+	width: 60%;
+	font-size: 1.4em;
+	
+	margin-left: 7.5vw;
+}
+}
+
+@media (min-width: 1280px)	{
+	section p{
+	width: 50%;
+	font-size: 1.6em;
+	
+	margin-left: 10vw;
+}
+}
+
+
+
+
+
+
+
+
+/**************************** ****************************************** Hier stopt het	 ****************************************************************************************/
 
 /*code voor index sections, de opmaak*/
 
@@ -243,37 +375,42 @@ section	p{
 }
 }
 
-@media (min-width: 560px)	{
+@media (min-width: 670px)	{
 	.kopjenep{
 	display: block;
+	
+  	overflow: hidden;
+  	text-overflow: ellipsis;
 }
 }
 
 
 
 
-section	{
-	height: 80vh;
-	width: 100vw;
-}
 
-section:nth-of-type(-n+4){
 
-	display: inline-block;
- 	
-}
+
 
 
 /*hoe zorg ik ervoor dat de video niet zo breed is en mooi uitzoomt wanneer ik hem responsive maak?*/
 
 
 .video-achtergrond	{
-	position: fixed;
+	position: absolute;
     top: 0px;
     right: 0px;
-    overflow: auto;
     z-index: -1;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.home section:nth-of-type(2) img	{
 	
+	width: 100vw;
+	height: 100vh;
 
 }
 
@@ -282,8 +419,15 @@ section:nth-of-type(-n+4){
 }
 
 .home section:nth-of-type(2)	{
-	background-color: #E02C03;
 	color: var(--color-sec);
+	background-color: #E02C03;
+
+	background-image: url("../images/sturges.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+
 }
 
 .home section:nth-of-type(3)	{
@@ -296,19 +440,17 @@ section:nth-of-type(-n+4){
 	color: var(--color-prim);
 }
 
-/*https://css-tricks.com/almanac/selectors/n/nth-child/#:~:text=The%20syntax%20for%20selecting%20the,the%20first%203%20li%20elements.*/
-
-/*als ik dit naar .kopje1 verander klopt ineens de hele layout niet meer.*/
 
 
-/*@keyframes rotate {
-	to {
-	  transform: rotate(360deg);
-	}
-  }
-  */
 
-/*https://stackoverflow.com/questions/1225130/how-can-i-align-text-directly-beneath-an-image*/
+
+
+
+
+
+
+
+
 
 
 article	{
