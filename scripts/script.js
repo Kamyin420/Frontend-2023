@@ -1,6 +1,15 @@
 // JavaScript Document
 /*https://css-tricks.com/books/greatest-css-tricks/scroll-animation/*/
 
-window.addEventListener('scroll', () => {
-    document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-  }, false);
+
+
+  var eersteStreepjesButton = document.querySelector("nav ul li:nth-of-type(4) button");
+eersteStreepjesButton.onclick = eersteStreepjesButtonKlik;
+function eersteStreepjesButtonKlik() {
+  if (eersteStreepjesButton.ariaExpanded == "false") {
+    eersteStreepjesButton.ariaExpanded = "true"
+  }
+  else {
+    eersteStreepjesButton.ariaExpanded = "false"
+  }
+}

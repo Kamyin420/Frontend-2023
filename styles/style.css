@@ -20,6 +20,9 @@
 	--color-prim:#FFFF5E;
 	--color-sec:#82ECFF;
 	--color-tert:#F164EB;
+	--color-button:#ffffff;
+	--color-button2: #121212;
+	--color-backgroundarticle:#121212;
 
 	--fontsize-prim: 2em;
 	
@@ -60,7 +63,7 @@ img {
 header	{
 	position: sticky;
 	top: 0em;
-	margin-top: 1em;
+	margin-top: -3em;
 	margin-left: 1.2em;
 	margin-right: 1.2em;
 	max-width: 100%;
@@ -91,8 +94,6 @@ nav{
 	font-size: .9em;
 	font-weight: bold;
 	color: #ffffff;
-
-
 }
 
 /*zal ik voor de eerste 2 list items een span gebruiken? dat ik ze in 1 Li stop ipv 2.*/
@@ -104,6 +105,72 @@ nav ul {
 	
 	
 }
+
+
+
+
+nav ul li:nth-of-type(4) button{
+	display: grid;
+	place-items: center;
+	
+	
+	width: 2.8em;
+	height: 2.8em;
+
+	border-radius: 50%;
+	border-width: 0;
+	background-color: var(--color-button);
+
+}
+
+nav ul li:nth-of-type(4) button span	{
+	grid-row-start:1;
+  	grid-column-start:1;
+	
+	
+	width: 1.4em;
+	height: .2em;
+	background-color: var(--color-button2);
+
+	transition-duration: .5s;
+}
+
+
+nav ul li:nth-of-type(4) button span:nth-of-type(1){
+
+	transform:translateY(-.4em);
+	
+}
+
+nav ul li:nth-of-type(4) button span:nth-of-type(2){
+
+}
+
+nav ul li:nth-of-type(4) button span:nth-of-type(3){
+
+	transform:translateY(.4em);
+	
+}
+
+nav ul li:nth-of-type(4) button[aria-expanded="true"] span:nth-of-type(1){
+	
+	transform:rotate(45deg) scalex(1.25);
+
+}
+
+nav ul li:nth-of-type(4) button[aria-expanded="true"] span:nth-of-type(2){
+	opacity: 0%;
+	transition-duration: 0s;
+}
+
+nav ul li:nth-of-type(4) button[aria-expanded="true"] span:nth-of-type(3){
+	transform:rotate(-45deg) scalex(1.25);
+}
+
+
+
+
+
 
 
 
@@ -206,9 +273,7 @@ section:nth-of-type(-n+4){
     right: 0px;
     overflow: auto;
     z-index: -1;
-	max-width: fit-content;
 	
-   
 
 }
 
@@ -247,7 +312,7 @@ section:nth-of-type(-n+4){
 
 
 article	{
-	background-color: black;
+	background-color: var(--color-backgroundarticle);
 	max-width: 100%;
 }
 
