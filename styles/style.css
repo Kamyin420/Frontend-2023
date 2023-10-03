@@ -107,29 +107,6 @@ nav ul {
 
 
 
-section	{
-	
-	height: 80vh;
-	display: grid;
-	grid-template-rows: 4em 3em 3em 2em 8em 6em;
-
-	
-	
-}
-
-
-
-
-
-
-
-
-main	{
-	display: grid;
-	
-}
-
-
 
 
 
@@ -191,7 +168,6 @@ section	p{
 .naastelkaar {
 	display: flex;
 	justify-content: space-between;
-	
 }
 
 @media (min-width: 00px)	{
@@ -206,6 +182,19 @@ section	p{
 }
 }
 
+
+
+
+section	{
+	height: 80vh;
+	width: 100vw;
+}
+
+section:nth-of-type(-n+4){
+
+	display: inline-block;
+ 	
+}
 
 
 /*hoe zorg ik ervoor dat de video niet zo breed is en mooi uitzoomt wanneer ik hem responsive maak?*/
@@ -246,11 +235,6 @@ section	p{
 
 /*als ik dit naar .kopje1 verander klopt ineens de hele layout niet meer.*/
 
-section:nth-of-type(-n+4){
-
-	display: inline-block;
- 	
-}
 
 /*@keyframes rotate {
 	to {
@@ -267,9 +251,6 @@ article	{
 	max-width: 100%;
 }
 
-article section	{
-
-}
 
 
 
@@ -381,3 +362,8 @@ article img:nth-of-type(2)	{
 
 
 
+@media(min-width: 20em) {
+	section:first-of-type {
+		margin-top: 0em;
+	}
+}
