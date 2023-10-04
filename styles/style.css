@@ -180,19 +180,35 @@ nav ul li:nth-of-type(4) button[aria-expanded="true"] span:nth-of-type(3){
 
 
 
-
-.ruimte	{
-	height: 10vh;
-}
-
 /******************************************* code om tekst in de sections responsive te maken *************************************************************/
 
 
 .home section	{
 	height: 80vh;
 	width: 100vw;
-
 }
+
+.hoofdkop	{
+	display: grid;
+	grid-template-rows: 0.5fr 1fr 0.5fr;
+	gap: 0fr;
+
+	position: relative;
+	top: 20%;
+}
+
+.dep	{
+	display: grid;
+	grid-template-rows: 0.5fr 1fr 0fr ;
+	gap: 2fr;
+	max-height: 40%;
+	
+	position: relative;
+	top: 25%;
+	
+}
+
+
 
 @media (min-width: 670px)	{
 	.home section {
@@ -228,7 +244,7 @@ section	h1{
 @media (min-width: 670px)	{
 	section h1{
 	width: 60%;
-	font-size: 2.6em;
+	font-size: 3em;
 	line-height: 1em;
 	
 	margin-left: 7.5vw;
@@ -238,7 +254,7 @@ section	h1{
 @media (min-width: 1280px)	{
 	section h1{
 	width: 40%;
-	font-size: 3.4em;
+	font-size: 3.8em;
 	line-height: 1em;
 
 	margin-left: 10vw;
@@ -320,27 +336,23 @@ section	p{
 	font-weight: 500;
 	color: #ffffff;
 	
-	position: relative;
-	bottom: 5%;
-
+	
 	line-height: 1.2em;
 	width: 85%;
 	
 
 	margin-left: 5vw;
+	margin-bottom: 0;
 	
 	
 }
 
-section p:nth-of-type(1)	{
-	margin-top: 10vh;
-}
 
 
 @media (min-width: 670px)	{
 	section p{
 	width: 60%;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	
 	margin-left: 7.5vw;
 }
@@ -349,7 +361,7 @@ section p:nth-of-type(1)	{
 @media (min-width: 1280px)	{
 	section p{
 	width: 50%;
-	font-size: 1.6em;
+	font-size: 1.2em;
 	
 	margin-left: 10vw;
 }
@@ -362,12 +374,13 @@ section p:nth-of-type(1)	{
 
 
 
+
 /**************************** ****************************************** Hier stopt het	 ****************************************************************************************/
 
-/*code voor index sections, de opmaak*/
+/**************************************************************Voor de kopjes die rechts komen***********************************************************************************/
 
 
-.naastelkaar {
+.hoofdkop {
 	display: flex;
 	justify-content: space-between;
 }
@@ -400,21 +413,36 @@ section p:nth-of-type(1)	{
 
 .home section:nth-of-type(1) .video-achtergrond	{
 	position: absolute;
+	
     top: 0px;
     right: 0px;
     z-index: -1;
 	object-fit: cover;
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .home section:nth-of-type(3) .video-achtergrond2 {
-    position: absolute;
-    top: 220%;
+	position: absolute;
+	
+    top: 0%;
+    bottom: 0%;
     z-index: -1;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+
+.home section:nth-of-type(4) .video-achtergrond3 {
+	position: absolute;
+	
+    top: 0%;
+    bottom: 0%;
+    z-index: -1;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
 .home section:nth-of-type(2) img	{
@@ -426,6 +454,8 @@ section p:nth-of-type(1)	{
 
 .home section:nth-of-type(1)	{
 	color: var(--color-prim);
+
+	
 }
 
 .home section:nth-of-type(2)	{
@@ -441,13 +471,17 @@ section p:nth-of-type(1)	{
 }
 
 .home section:nth-of-type(3)	{
+	
+	position: relative;
+	
 	color: var(--color-tert);
-	background-color: #82ECFF;
+	
 	
 }
 
 .home section:nth-of-type(4)	{
-	background-color: #684B2B;
+	position: relative;
+
 	color: var(--color-prim);
 }
 
@@ -458,6 +492,10 @@ section p:nth-of-type(1)	{
 
 
 
+
+
+
+/**********************************************************Hier begint Werner*****************************************************************/
 
 
 
