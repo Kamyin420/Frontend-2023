@@ -255,7 +255,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
-  2. bron 2
+  2. Elmar, een vriend van mij, Arron Robinson, student cmd.
   3. ...
 
 </details>
