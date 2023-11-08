@@ -124,10 +124,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Mediaquerry is lastig
+  - Erg veel stof om tot me te nemen, heb het gevoel dat het zoveel sneller kan, maar ik zit elke keer vast bij standaard problemen.
+  - Grid is erg moeilijk.
+  
 
 </details>
 
@@ -157,8 +157,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - Het is voor mij heel erg moeilijk om precies de layout te krijgen zoals ik het wil. Elke keer ziet het er toch nog raar uit.
+  - Header wilt niet goed breed over de pagina.
   - nog een punt
 - ...
 
@@ -174,7 +174,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Mijn website was eerst niet heel accesible. Nu nog steeds niet heel erg, wel is het nu heel duidelijk te lezen, de achtergrond is in plaats van zwart een lichter grijs om het contrast te
+  verbeteren. Ook heb ik een focus state toegevoegd.
 
 </details>
 
@@ -226,19 +227,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="./readme-images/eindresultaat.png" width="375px" alt="uitomst opdracht 1">
+  <img src="./readme-images/eindresultaat 2.png"width="375px" alt="uitomst opdracht 2">
+  <img src="./readme-images/eindresultaat 3.png"width="375px" alt="uitomst opdracht 3">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="./readme-images/geleerd1.png" width="375px" alt="top">
+  Heb geleerd hoe je door middel van display:block en display:none best coole dingen kan maken.
+
+  Geleerd hoe ik goed moet flexen.
+
+  Een responsive website met mediaquerry's en viewwidth.
+
+
+  <img src="./readme-images/margin....png" width="375px" alt="top">
+  Ik heb ook geleerd dat ik niet 400 margins moet zetten op alles, dit heeft mij namelijk ene hele dag gekost...
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="./readme-images/eindresultaat.png" width="375px" alt="bummer">
+  Ik wilde dat wanneer je naar onder scrollde, de teksts naar links ging in een animatie. Nu heeft Danny dit uitgelegd en toen snapte ik het
+  maar toen ik het zelf ging doen niet meer...
+
+  Wat mij ook niet is gelukt, om zo min mogelijk divs te gebruiken. Voor de vormgeving die ik had kon ik bijna alleen maar divs gebruiken, anders was ik 
+  constant kwijt met welk element ik bezig was in css.
+
+  
+
+
 </details>
 
 
@@ -256,6 +276,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. https://css-tricks.com/books/greatest-css-tricks/scroll-animation/
   2. Elmar, een vriend van mij, Arron Robinson, student cmd.
-  3. ...
+  3. https://cssgrid-generator.netlify.app/
+  4. Chat GPT
 
 </details>
