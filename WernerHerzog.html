@@ -17,15 +17,21 @@
     <header>
 
         <nav>
-            <img src="./images/Eye.png"
-                alt="Een heel simpel teken van een oog met daarnaast het woord 'eye', het logo van filmmuseum eye.">
-            <ul>
-                <li>NL</li>
-                <li>EN</li>
-                <li><img src="./images/Loop.png" alt="een icoon van een vergrootglas."></li>
-                <li><a href="Hamburgermenu"></a></li>
-            </ul>
-        </nav>
+			<img src="./images/Eye.png"
+				alt="Een heel simpel teken van een oog met daarnaast het woord 'eye', het logo van filmmuseum eye.">
+			<ul>
+				<li><p>NL</p></li>
+				<li><p>EN</p></li>
+				<li><img src="./images/Loop.png" alt="een icoon van een vergrootglas."></li>
+				<li aria-label="hamburgermenu">
+					<button aria-label="menu" aria-expanded="false">
+						<span></span>
+         				 <span></span>
+         				 <span></span>
+       		 	</button>
+      			</li>
+			</ul>
+		</nav>
         <section><div class="sticky">
         <h3>Tentoonstelling, films, talks & events</h3>
         <h1>WERNER HERZOG</h1>
@@ -35,37 +41,84 @@
         <video class="video-achtergrond" autoplay loop muted>
 			<source src="./images/WernerHerzogCrab.mp4" type="video/mp4"></video></section>
     </header>
+
+    <menu id="overlay">
+		<img src="./images/eyegebouw.png">
+		<div class="overlaylayout">
+		<ul>
+		<li><a href="zienendoen.html">Zien & doen </a></li>
+		<li><a href="praktisch.html">Praktisch </a></li>
+		<li><a href="collectie.html">Collectie </a></li>
+		</ul>
+		<ul>
+		<li><a href="professionals.html">Professionals </a></li>
+		<li><a href="onderwijs.html">onderwijs </a></li>
+		<li><a href="academisch"> Academisch onderzoek</a></li>
+		<li><a href="steuneye.html"> Steun Eye</a></li>
+		<li><a href="zaalverhuur.html">Zaalverhuur </a></li>
+		<li><a href="overeye.html">Over Eye </a></li>
+		</ul>
+		</div>
+	</menu>
+    
     <main>
 
             
             
         <article>
            <section>
-            <p>FILMS, TALKS & EVENTS</p>
-            <p>Eye Filmmuseum presenteert een tentoonstelling en omvangrijk filmprogramma rondom het werk van de
-                gevierde filmmaker Werner Herzog. Met zijn onorthodoxe oeuvre –
-                dat ruim zeventig speelfilms, documentaires en shorts omvat – weet Herzog het publiek al ruim een halve
-                eeuw lang te fascineren met onvergetelijke verhalen,
-                beelden en personages. Zijn films bieden inzicht in de relatie tussen mensen en
-                de chaotische wereld om hen heen, en in de oneindige onverschilligheid van de natuur ten opzichte van
-                het menselijk bestaan.</p>
-            <img src="./images/WernerHerzog2.png" alt="De expositie in het Eye gebouw. Hierbij zie je een shot uit een van de werken van Werner Herzog">
-            <p>Werner Herzog – The Ecstatic Truth, Eye Filmmuseum Amsterdam; foto: Studio Hans Wilschut</p>
-            <img src="./images/WernerHerzog1.png" alt="Nog een keer dezelfde tentoonstelling, alleen andere werken.">
-            <p>Werner Herzog – The Ecstatic Truth, Eye Filmmuseum Amsterdam; foto: Studio Hans Wilschut</p>
-            <p>De tentoonstelling biedt inzicht in de manier waarop Herzog de wereld onderzoekt en beschouwt. Centraal staat de ecstatic truth, de extatische waarheid waar 
-                de regisseur continu naar op zoek is. Hiertoe construeert en stileert hij beelden die deze diepere waarheid blootleggen: “I’m modifying facts in such 
-                a degree that they resemble truth more than reality.”</p>
-            <h3>Bekijk de tentoonstellingstrailer:</h3>
-
-            <p>In zijn werk zoekt Herzog de plekken op waar onze planeet het meest buitenaards aandoet. Van de rand van actieve vulkanen tot de wereld onder het poolijs; van
-                 de jungle tot brandende olievelden; van de Sahara tot de dodencel. Hij richt zijn camera op mensen die in extreme omstandigheden leven en overleven – 
-                 van wetenschappers op Antarctica tot kindsoldaten. De regisseur voelt een sterke geestverwantschap met de dromers, de obsessievelingen, de solitaire rebellen
-                  en de gemarginaliseerden, die om welke reden dan ook de gebaande paden links laten liggen. Middels verhalen over deze buitengewone individuen weet Herzog tegelijkertijd
-                   grotere verhalen over het menselijk bestaan te vertellen. Daarbij toont hij zichzelf als iemand met een koele, observerende blik maar ook met een groot mededogen. 
-                   Ook zijn diepe interesse in voortrazende technologische ontwikkelingen bezielt veel van zijn films.</p>
-            
+               <div class="width-55">
+                <p>FILMS, TALKS & EVENTS</p>
+                <p>Eye Filmmuseum presenteert een tentoonstelling en omvangrijk filmprogramma rondom het werk van de
+                    gevierde filmmaker Werner Herzog. Met zijn onorthodoxe oeuvre –
+                    dat ruim zeventig speelfilms, documentaires en shorts omvat – weet Herzog het publiek al ruim een halve
+                    eeuw lang te fascineren met onvergetelijke verhalen,
+                    beelden en personages. Zijn films bieden inzicht in de relatie tussen mensen en
+                    de chaotische wereld om hen heen, en in de oneindige onverschilligheid van de natuur ten opzichte van
+                    het menselijk bestaan.</p>
+                </div>
+                
+                <div class="width-45">
+                    <img src="./images/WernerHerzog2.png" alt="De expositie in het Eye gebouw. Hierbij zie je een shot uit een van de werken van Werner Herzog">
+                <p>Werner Herzog – The Ecstatic Truth, Eye Filmmuseum Amsterdam; foto: Studio Hans Wilschut</p>
+                </div>
                 </section>
+
+               <section>
+                 <div class="width-40">
+                     <img src="./images/WernerHerzog1.png" alt="Nog een keer dezelfde tentoonstelling, alleen andere werken.">
+                    <p>Werner Herzog – The Ecstatic Truth, Eye Filmmuseum Amsterdam; foto: Studio Hans Wilschut</p>
+                </div>
+                 <div class="width-50">
+                    <p>De tentoonstelling biedt inzicht in de manier waarop Herzog de wereld onderzoekt en beschouwt. Centraal staat de ecstatic truth, de extatische waarheid waar 
+                    de regisseur continu naar op zoek is. Hiertoe construeert en stileert hij beelden die deze diepere waarheid blootleggen: “I’m modifying facts in such 
+                    a degree that they resemble truth more than reality.”</p></div>
+                </section> 
+
+             <section> 
+                 <div>
+                    <h4>Bekijk de tentoonstellingstrailer:</h4>
+                    <iframe  src="https://www.youtube.com/embed/WXVOm2kZXUc?si=6n0ttZ1QA-1-Imck" title="YouTube video player" 
+                   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+             </section>
+            
+            <section>
+                <div class="width-38">
+                    <p>In zijn werk zoekt Herzog de plekken op waar onze planeet het meest buitenaards aandoet. Van de rand van actieve vulkanen tot de wereld onder het poolijs; van
+                        de jungle tot brandende olievelden; van de Sahara tot de dodencel. Hij richt zijn camera op mensen die in extreme omstandigheden leven en overleven – 
+                        van wetenschappers op Antarctica tot kindsoldaten. De regisseur voelt een sterke geestverwantschap met de dromers, de obsessievelingen, de solitaire rebellen
+                        en de gemarginaliseerden, die om welke reden dan ook de gebaande paden links laten liggen. Middels verhalen over deze buitengewone individuen weet Herzog tegelijkertijd
+                        grotere verhalen over het menselijk bestaan te vertellen. Daarbij toont hij zichzelf als iemand met een koele, observerende blik maar ook met een groot mededogen. 
+                        Ook zijn diepe interesse in voortrazende technologische ontwikkelingen bezielt veel van zijn films.</p>
+                </div>
+                <div class="width-62">
+                    <img src="./images/Klauskinski.png" alt="Klaus Kinski in de film: Firzcarraldo die staat voor het schip dat zij over de berg gaan tillen.">
+                    <p>Klaus Kinski bij de opnames van Fitzcarraldo (1982) Foto: Beat Presser © Werner Herzog Film / Deutsche Kinemathek</p>
+                </div>
+            </section>
+                  
+
         </article>
 
 
